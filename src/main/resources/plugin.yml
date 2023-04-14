@@ -1,0 +1,12 @@
+name: Moderation
+version: '${project.version}'
+main: me.puedo.moderationpl.Main
+authors: [ Puedo ]
+description: API Made for github.com/xdNuggets/ReportSystem
+commands:
+  ban:
+    permission: ban
+  unban:
+    permission: unban
+  mute:
+    permission: mute

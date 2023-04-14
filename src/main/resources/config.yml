@@ -1,0 +1,21 @@
+sql:
+  host: localhost
+  port: 3306
+  database: punishments
+  username: root
+  password:
+
+force-silent-punishment: false
+silent-prefix: "§7(Silent) §r"
+kick-messages:
+  ban:
+    - "§cYou have been banned for §f<time>"
+    - "§cYou were banned for: §f<reason>"
+mute:
+  - "§r"
+  - "§cYou are currently muted for §f<time>"
+  - "§cYou were muted for §f<reason>"
+  - "§r"
+
+punishment-broadcasts:
+  ban: "<silent><staff> §chas banned §r<player>"
